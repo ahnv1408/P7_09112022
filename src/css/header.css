@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Nunito:wght@200&family=Roboto+Mono:wght@200&family=Roboto:wght@300&family=Shrikhand&family=Square+Peg&display=swap');
+
+.navbar {
+    display: flex;
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #FF6060;
+}
+
+.link1 {
+    margin-right: 40px;
+}
+
+
+.logo {
+    display: flex;
+    color: #FF6060;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 70px;
+}
+
+.home_logo {
+    height: 55px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.letterK_logo {
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.letter_logo {
+   font-weight: 700;
+   font-size: 80px;
+   margin-right: 10px;
+   margin-top: 14px;
+}
+
+li {
+    list-style: none;
+}
