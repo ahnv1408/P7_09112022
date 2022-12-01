@@ -26,10 +26,13 @@ a {
     margin-right: 40px;
 }
 
+.activeLink {
+    text-decoration: underline;
+}
+
 
 .logo {
     display: flex;
-    color: #FF6060;
     font-family: 'Montserrat', sans-serif;
     margin-left: 70px;
 }
@@ -56,4 +59,55 @@ a {
 
 li {
     list-style: none;
+}
+
+.photo_paysage {
+    /* width: 93%;
+    height: 300px; */
+    width: 1775px;
+    height: 220px;
+    margin-left: 70px;
+    border-radius: 15px;
+    opacity: 1;
+    display: inline-block;
+    position: relative;
+}
+.p_paysage {
+    z-index: 1;
+    position: absolute;
+    top: 240px;
+    left: 650px;
+    color: white;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 115%;
+        height: 120px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+    .link1 {
+        margin-right: 10px;
+    }
+    .photo_paysage {
+        width: 410px;
+        height: 100px;
+        margin-left: 20px;
+    }
+
+    .p_paysage {
+        left: 60px;
+        top: 100px;
+        font-size: 30px;
+    }
+    .link {
+        margin-right: 24px;
+        margin-top: 60px;
+        font-size: 14px;
+        padding-left: 0px;
+    }
 }

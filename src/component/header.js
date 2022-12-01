@@ -1,8 +1,10 @@
 import logo from '../assets/Vector.webp';
+import photo1 from '../assets/IMG.webp';
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
     return (
+        <>
         <section className='navbar'>
             <div className="logo">
                 <p className='letterK_logo'>K</p>
@@ -18,6 +20,11 @@ export default function Header() {
                 </ul>
             </div>
         </section>
+        <article>
+            <img src={photo1} alt='photo paysage' className='photo_paysage'/>
+            <p className='p_paysage'>Chez vous, partout et ailleurs</p>
+        </article>
+        </>
         
     )
 }

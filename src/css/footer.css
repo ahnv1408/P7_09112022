@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Nunito:wght@200&family=Roboto+Mono:wght@200&family=Roboto:wght@300&family=Shrikhand&family=Square+Peg&display=swap');
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.home_logo_footer {
+    color: white;
+    font-size: 15px;
+}
